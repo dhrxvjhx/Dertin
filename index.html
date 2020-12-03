@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="img/Asset-DE.png">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <script type="text/javascript" src="scripts/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dertin</title>
+</head>
+<body onload=startTime()>
+    <img src="img/Asset-DE.png" alt="Dertin" class="animated fadeIn" style="width:300px;height:300px; display: block; margin-right: auto; margin-left: auto;">
+
+    <div class="dropdown" style="float:right;">
+        <button class="dropbtn">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+          </svg>
+        </button>
+        
+        <div class="dropdown-content">
+          <a href="#">Need Help?</a>
+          <a href="https://github.com/dhruvjha11">Contact Dev</a>
+        </div>
+    </div>
+    <br/>
+
+    <input autocomplete="off" class="animated fadeIn" id="textbox" type="text" placeholder="Search..." onkeydown="if (event.keyCode == 13 || event.which == 13) { location = getLocation + encodeURIComponent(document.getElementById('textbox').value);}" />
+    
+    <br /><div class="animated fadeIn">
+        <button class="buttonstyle" onclick=youtube()>YouTube</button>
+        <button class="buttonstyle" onclick=github()>GitHub</button>
+        <button class="buttonstyle" onclick=reddit()>Reddit</button>
+        <button class="buttonstyle" onclick="search('https://www.google.com/search?q=')">Google</button>
+        <button class="buttonstyle" onclick=twitter()>Twitter</button>
+        <button class="buttonstyle" onclick=gmail()>Gmail</button>
+    </div>
+
+    <p id="greetingMsg" class="animated fadeIn"></p>
+    <p id="clock" class="animated fadeIn"></p>
+    <p class="animated fadeIn"><a style="color: white; text-decoration: none; text-shadow: 0 0 20px rgba(255, 255, 255, 0.5),  0 0 20px rgba(10, 175, 230, 0)" href="/">🏠</a></p>
+
+    
+</body>
+</html>
