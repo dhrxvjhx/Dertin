@@ -19,7 +19,7 @@ A custom home page for your browser. Made for ~~Minimalists~~ Everyone
 
 ---
 
-## Setting up {#Setting-Up}
+## Setting up 
 Depending upon your web browser, the set up wil be slightly different. But it should be pretty much the same:
 #### A.
 1. Go to [Settings](chrome://settings) of your Browser (If redirect dosen't work go there manually)
