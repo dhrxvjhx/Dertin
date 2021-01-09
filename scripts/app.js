@@ -1,7 +1,29 @@
-var getLocation = "https://google.com/search?q="
+// changes made to search because inline is not possible
+getLocation = "https://google.com/search?q="
 
-function search(getLocation){
-    location = getLocation + encodeURIComponent(document.getElementById('textbox').value) + '&ia=web';
+document.getElementById("textbox").addEventListener("keyup", function(event) {
+    if (event.key === 13 || event.code === "Enter") {   
+        event.preventDefault();
+        search();
+    }
+});
+
+document.getElementById("reddit").addEventListener("click", reddit);
+document.getElementById("youtube").addEventListener("click", youtube);
+document.getElementById("github").addEventListener("click", github);
+document.getElementById("search").addEventListener("click", search);
+document.getElementById("twitter").addEventListener("click", twitter);
+document.getElementById("gmail").addEventListener("click", gmail);
+window.onload = startTime();
+
+function search(){
+    var txtBoxInput = document.getElementById('textbox').value
+    if (txtBoxInput == '' || txtBoxInput == '') {
+        location = "https://google.com"
+    }
+    else {
+        location = "https://google.com/search?q=" + encodeURIComponent(document.getElementById('textbox').value) + '&ia=web';
+    }
 }
 
 function reddit(){
@@ -75,8 +97,7 @@ function startTime() {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('clock').innerHTML =
-    h + ":" + m + ":" + s;
+    document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
     document.getElementById('greetingMsg').innerHTML = greeting;
     var t = setTimeout(startTime, 500);
 
