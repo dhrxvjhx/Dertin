@@ -30,11 +30,7 @@ Depending upon your web browser, the set up wil be slightly different. But it sh
 
 #### A.
 
-1. Go to [Settings](chrome://settings) of your Browser (If redirect dosen't work go there manually)
-2. Find _**On startup**_ in the settings
-3. Set it to _**Open a specific page**_
-4. Put this url there:
-   > https://dhrxvjhx.github.io/Dertin/
+1. Go to [releases](https://github.com/dhrxvjhx/Dertin/releases)
 
 #### B.
 
