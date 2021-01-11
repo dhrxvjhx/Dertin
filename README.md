@@ -28,14 +28,19 @@ A custom home page for your browser. Made for ~~Minimalists~~ Everyone
 
 Depending upon your web browser, the set up wil be slightly different. But it should be pretty much the same:
 
-#### A.
-
-1. Go to [releases](https://github.com/dhrxvjhx/Dertin/releases)
-2. Download `.zip` file 
-
-#### B.
+#### A. (Recommended)
 
 1. Go to [Chrome Extensions](https://chrome.google.com/webstore) and search for **_New Tab Redirect_** or [Click here for recommended redirect tab extensions](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna)
    
 2. Set Redirect Page to [Dertin's website](https://dhrxvjhx.github.io/Dertin/)
    > https://dhrxvjhx.github.io/Dertin/
+   
+#### B. 
+
+1. Go to [releases](https://github.com/dhrxvjhx/Dertin/releases)
+2. Download `.zip` file and Unzip it
+3. [Go to `chrome://extensions`](chrome://extensions)
+4. Enable Developer Mode
+5. Drag the unzipped folder there
+
+
