@@ -91,7 +91,7 @@ button:focus {
 #Dertin {
   text-align: center;
   color: #daf6ff;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(10, 175, 230, 0);
+  text-shadow: 0 0 40px rgba(255, 255, 255, 0.5), 0 0 40px rgba(10, 175, 230, 0);
   font-size: 30px;
 }
 

@@ -31,6 +31,7 @@ Depending upon your web browser, the set up wil be slightly different. But it sh
 #### A.
 
 1. Go to [releases](https://github.com/dhrxvjhx/Dertin/releases)
+2. Download `.zip` file 
 
 #### B.
 

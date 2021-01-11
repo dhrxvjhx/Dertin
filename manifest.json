@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Dertin",
+    "version": "1.0.1",
+    "description": "A Custom New Tab for your home",
+    "offline_enabled": true,
+    "icons": {
+      "128": "img/Dertin_2.png"},
+    "browser_action": {
+      "default_icon": "img/Asset-DE.png"},
+    "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+}
