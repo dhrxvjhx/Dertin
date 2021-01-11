@@ -69,8 +69,6 @@ button:focus {
   font-size: 30px;
 }
 
-
-
 #greetingMsg {
   text-align: center;
   color: #daf6ff;
@@ -87,7 +85,7 @@ button:focus {
 
 img {
   width: 300px;
-  height: 300px;
+  max-height: 300px;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -139,18 +137,53 @@ img {
   display: block;
 }
 
+.smalldevice {
+  text-shadow: 0 0 40px rgba(255, 255, 255, 0.5), 0 0 40px rgba(10, 175, 230, 0);
+  font-size: 14px;
+  display: none;
+}
+
+.smalldevice a{
+  color: white;
+  text-decoration: underline;
+  animation-fill-mode: forwards;
+  fill: #333333;
+}
+
 @media screen and (max-width: 770px) {
   #textbox {
-    width: 500px;
+    width: 470px;
   }
 
   button {
-    max-width: 70px;
-    font-size: 12px;
+    max-width: 75px;
+    font-size: 14px;
   }
 
   p {
     font-size: 16px;
     padding-bottom: 0.2em;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .dropdown {
+    display: none;
+  }
+
+  #textbox {
+    display: none
+  }
+  
+  #Dertin {
+    display: none;
+  }
+
+  .buttonstyle {
+    display: none;
+  }
+
+  .smalldevice {
+    display: block;
   }
 }
