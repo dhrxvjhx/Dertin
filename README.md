@@ -25,5 +25,5 @@ A custom home page for your browser. Made for ~~Minimalists~~ Everyone
 ---
 
 ## Setting Up
-> [Click Here to know about how to Install and Update ](https://github.com/dhrxvjhx/Dertin/wiki/Installation-Update)
+> [Click Here to know about how to Install and Update ](https://github.com/dhrxvjhx/Dertin/wiki/Installation&Update)
 
