@@ -1,6 +1,6 @@
-# DERTIN
 
 <div align="center">
+  <h1>DERTIN</h1>
   <img src="img/LOGO-DERTIN.png">
 </div>
 
