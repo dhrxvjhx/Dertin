@@ -2,7 +2,7 @@
 <div align="center">
   <h1>DERTIN</h1>
   
-<a href="dhrxvjhx.github.io/Dertin" target="_blank"> <img src="img/Dertin.png"> </a>
+<a href="https://dhrxvjhx.github.io/Dertin" target="_blank"> <img src="img/Dertin.png"> </a>
 
 [![](https://img.shields.io/github/license/dhrxvjhx/Dertin?style=for-the-badge)](https://github.com/dhrxvjhx/Dertin/blob/master/LICENSE)
 [![](https://img.shields.io/github/v/release/dhrxvjhx/Dertin?style=for-the-badge)](https://github.com/dhrxvjhx/Dertin/releases)
@@ -18,7 +18,10 @@
 
 Star the Repositry if you like the work
 
-### [Click here for usage manual](https://github.com/dhrxvjhx/Dertin/wiki/Features)
+### [Features ](https://github.com/dhrxvjhx/Dertin/wiki/Features)
+· Direct access to 6-Websites with Search Features
+· Google Search
+
 
 ## Setting Up
 ### [Installation and Update can be located at our docs](https://github.com/dhrxvjhx/Dertin/wiki/Installation&Update)
