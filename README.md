@@ -10,8 +10,9 @@
 <!--
 [![](https://img.shields.io/badge/dynamic/json?label=edge%20rating&suffix=/5&query=%24.averageRating&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Febmeekkcolklpifhadddodpdmdocipof&style=for-the-badge)](https://microsoftedge.microsoft.com/addons/detail/dertin/ebmeekkcolklpifhadddodpdmdocipof)-->
 
-
-A custom home page for your browser. Made for ~~Minimalists~~ Everyone
+<a href="dhrxvjhx.github.io/Dertin" target="_blank"> <img src="img/Dertin.png"> </a>
+## ABOUT
+**Dertin** is a custom home page for your browser, acess the web from your home page. Made for ~~Minimalists~~ Everyone.
 
 > Preview: https://dhrxvjhx.github.io/Dertin/
 
@@ -19,7 +20,6 @@ Star the Repositry if you like the work
 
 ### [Click here for usage manual](https://github.com/dhrxvjhx/Dertin/wiki/Features)
 
-
 ## Setting Up
-> [Click Here to know about how to Install and Update ](https://github.com/dhrxvjhx/Dertin/wiki/Installation&Update)
+### [Installation and Update can be located at our docs](https://github.com/dhrxvjhx/Dertin/wiki/Installation&Update)
 </div>
