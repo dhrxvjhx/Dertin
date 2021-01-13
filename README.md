@@ -1,5 +1,9 @@
 # DERTIN
 
+<div align="center">
+  <img src="img/LOGO-DERTIN.png">
+</div>
+
 A custom home page for your browser. Made for ~~Minimalists~~ Everyone
 
 > Preview: https://dhrxvjhx.github.io/Dertin/
