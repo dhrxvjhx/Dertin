@@ -21,7 +21,7 @@ Star the Repositry if you like the work
 ### [Features ](https://github.com/dhrxvjhx/Dertin/wiki/Features)
 · Direct access to 6-Websites with Search Features<br/>
 · Google Search<br/>
-
+Read our [**docs**](https://github.com/dhrxvjhx/Dertin/wiki/Features) for full info
 
 ## Setting Up
 ### [Installation and Update can be located at our docs](https://github.com/dhrxvjhx/Dertin/wiki/Installation&Update)
