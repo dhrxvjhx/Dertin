@@ -1,14 +1,13 @@
 {
   "manifest_version": 2,
-  "lang": "en-US",
   "name": "Dertin",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A Custom New Tab for your homepage ",
   "offline_enabled": true,
   "icons": {
-    "128": "img/Dertin_2.png"},
+    "128": "img/LOGO-DERTIN.png"},
   "browser_action": {
-    "default_icon": "img/Dertin_2.png"},
+    "default_icon": "img/BG-LOGO-DERTIN.png"},
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "chrome_url_overrides": {
     "newtab": "index.html"
