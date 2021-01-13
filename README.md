@@ -1,7 +1,7 @@
 
 <div align="center">
   <h1>DERTIN</h1>
-  <img src="img/LOGO-DERTIN.png">
+  <img src="img/BG-LOGO-DERTIN.png">
 </div>
 
 A custom home page for your browser. Made for ~~Minimalists~~ Everyone
