@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="google-site-verification" content="G9jO8msdLYM2qG7IWO9iUe3MR-4DynaoL20IEDBAN0M" />
     <link rel="icon" type="image/png" href="img/Dertin_1.png" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/response.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
@@ -13,11 +14,7 @@
     <title>New Tab | Dertin</title>
   </head>
   <body>
-    <img
-      src="img/Dertin_1.png"
-      alt="Dertin"
-      class="animated fadeIn"
-    />
+    <img src="img/Dertin_1.png" alt="Dertin" class="animated fadeIn" />
 
     <div class="dropdown" style="float: right">
       <button class="dropbtn">
@@ -42,9 +39,21 @@
         >
         <a href="https://linktr.ee/dhruvjha">Contact Dev</a>
         <a href="https://github.com/dhrxvjhx/Dertin/releases">Updates?</a>
+        <p>v2.0.0</p>
       </div>
     </div>
     <br />
+    <!-- Change version when bumping a new release -->
+
+    <div id="mySidenav" class="sidenav animated fadeIn">
+      <p title="Instagram" id="insta"><svg class="instagram" fill="#ffffff" height="20" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg></p>
+      
+      <p title="Facebook" id="fbook"><svg class="facebook" fill="#ffffff" height="20" viewBox="15.8 15.8 25 25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M32.8 24.7h-3.2v-2.1c0-0.8 0.5-1 0.9-1s2.3 0 2.3 0v-3.5l-3.1 0c-3.5 0-4.3 2.6-4.3 4.3v2.3h-2v3.6h2c0 4.6 0 10.2 0 10.2h4.2c0 0 0-5.6 0-10.2h2.8L32.8 24.7z"/></svg></p>
+      
+      <p title="Pinterst" id="pint"><svg class="pinterest" fill="#ffffff" height="20" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M13,16.2C12.2,16.2 11.43,15.86 10.88,15.28L9.93,18.5L9.86,18.69L9.83,18.67C9.64,19 9.29,19.2 8.9,19.2C8.29,19.2 7.8,18.71 7.8,18.1C7.8,18.05 7.81,18 7.81,17.95H7.8L7.85,17.77L9.7,12.21C9.7,12.21 9.5,11.59 9.5,10.73C9.5,9 10.42,8.5 11.16,8.5C11.91,8.5 12.58,8.76 12.58,9.81C12.58,11.15 11.69,11.84 11.69,12.81C11.69,13.55 12.29,14.16 13.03,14.16C15.37,14.16 16.2,12.4 16.2,10.75C16.2,8.57 14.32,6.8 12,6.8C9.68,6.8 7.8,8.57 7.8,10.75C7.8,11.42 8,12.09 8.34,12.68C8.43,12.84 8.5,13 8.5,13.2A1,1 0 0,1 7.5,14.2C7.13,14.2 6.79,14 6.62,13.7C6.08,12.81 5.8,11.79 5.8,10.75C5.8,7.47 8.58,4.8 12,4.8C15.42,4.8 18.2,7.47 18.2,10.75C18.2,13.37 16.57,16.2 13,16.2M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg></p>
+      
+      <p title="LinkedIn" id="linkd"><svg class="linkedin" fill="#ffffff" height="20" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg></p>
+    </div>
 
     <input
       autocomplete="off"
@@ -68,9 +77,12 @@
     <p id="clock" class="animated fadeIn"></p>
     <p id="Dertin" class="animated fadeIn">Dertin</p>
 
-    
-    <p class="smalldevice">OOPS!! Looks like you're not on the correct device, If you're using a device with extension capabilities and still see this message, <a href="https://github.com/dhrxvjhx/Dertin/issues">Contact Us</a></p>
-   
+    <p class="smalldevice">
+      OOPS!! Looks like you're not on the correct device, If you're using a
+      device with extension capabilities and still see this message,
+      <a href="https://github.com/dhrxvjhx/Dertin/issues">Contact Us</a>
+    </p>
   </body>
   <script type="text/javascript" src="scripts/app.js"></script>
+  <script type="text/javascript" src="scripts/drawer.js"></script>
 </html>

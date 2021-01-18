@@ -1,0 +1,96 @@
+/* Width */
+
+@media screen and (max-width: 770px) {
+  #textbox {
+    width: 470px;
+  }
+
+  button {
+    margin-top: 2px;
+    max-width: 75px;
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+    padding-bottom: 0.2em;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .dropdown {
+    display: none;
+  }
+
+  #textbox {
+    display: none;
+  }
+
+  #Dertin {
+    display: none;
+  }
+
+  img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .buttonstyle {
+    display: none;
+  }
+
+  #mySidenav {
+    display: none;
+  }
+
+  .smalldevice {
+    display: block;
+  }
+}
+
+/* Height */
+
+@media screen and (max-height: 710px) {
+  #Dertin {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 645px) {
+  #greetingMsg {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  img {
+    max-height: 100px;
+    width: auto;
+  }
+}
+
+@media screen and (max-height: 520px) {
+  .dropdown {
+    display: none;
+  }
+
+  #textbox {
+    display: none;
+  }
+
+  #Dertin {
+    display: none;
+  }
+
+  .buttonstyle {
+    display: none;
+  }
+
+  #mySidenav {
+    display: none;
+  }
+
+  .smalldevice {
+    display: block;
+  }
+}

@@ -1,11 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
 body {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: hidden;
   color: white;
   font-size: 24px;
   font-family: "Anonymous Pro", monospace;
   background-color: black;
   text-align: center;
+  height: 100%;
 }
 
 #textbox {
@@ -96,46 +109,6 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-.dropbtn {
-  background-color: transparent;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: absolute;
-  display: inline-block;
-  top: 0%;
-  right: 1%;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 14px;
-  text-decoration: none;
-  display: block;
-  font-size: 18px;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 .smalldevice {
   text-shadow: 0 0 40px rgba(255, 255, 255, 0.5), 0 0 40px rgba(10, 175, 230, 0);
@@ -143,47 +116,9 @@ img {
   display: none;
 }
 
-.smalldevice a{
+.smalldevice a {
   color: white;
   text-decoration: underline;
   animation-fill-mode: forwards;
   fill: #333333;
-}
-
-@media screen and (max-width: 770px) {
-  #textbox {
-    width: 470px;
-  }
-
-  button {
-    max-width: 75px;
-    font-size: 14px;
-  }
-
-  p {
-    font-size: 16px;
-    padding-bottom: 0.2em;
-  }
-}
-
-@media screen and (max-width: 525px) {
-  .dropdown {
-    display: none;
-  }
-
-  #textbox {
-    display: none
-  }
-  
-  #Dertin {
-    display: none;
-  }
-
-  .buttonstyle {
-    display: none;
-  }
-
-  .smalldevice {
-    display: block;
-  }
 }
