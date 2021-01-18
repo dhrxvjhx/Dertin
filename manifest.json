@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "nme": "Dertin-Beta",
   "version": "2.0.0",
-  "description": "A Custom New Tab for your homepage ",
+  "description": "A Custom New Tab for your New tab (home page) ",
   "offline_enabled": true,
   "icons": {
     "128": "img/BG-LOGO-DERTIN.png"},
