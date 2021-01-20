@@ -28,6 +28,7 @@
 ### [Features ](https://github.com/dhrxvjhx/Dertin/wiki/Features)
 · Direct access to 6-Websites with Search Features<br/>
 · Google Search<br/>
+· App drawer with current access to 4 apps<br/>
 Read our [**docs**](https://github.com/dhrxvjhx/Dertin/wiki/Features) for full info
 
 ## Setting Up
